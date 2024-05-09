@@ -1,0 +1,60 @@
+.ionicon-fill-none {
+    fill: white;
+    
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    margin-left: 1.5em;
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+    background-color: black;
+}
+
+.dropdown-toggle::after{
+    color: white;
+    
+}
+
+.row{
+    flex-wrap: nowrap;
+}
+
+.carousel-inner {
+    
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+  
+ .box {
+    transition: opacity 0.6s ease;
+    position: relative;
+  cursor: pointer;
+  transition: all .3s;
+    
+ }
+
+ .box:hover{
+    transform: scale(1.2);
+  }
+
+  .carousel-inner .row:hover > *:not(:hover) {
+    opacity: 0.4;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color: rgb(253 253 253);
+    }
